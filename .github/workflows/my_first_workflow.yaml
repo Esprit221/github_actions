@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: afficehr une chaine de caratere
         run: echo "Hello world"
-      - name: afficehr le repertoire courant
-	run: pwd
+#      - name: afficehr le repertoire courant
+#	run: pwd
       - name: multiline script
         run: |
           python3 -V
